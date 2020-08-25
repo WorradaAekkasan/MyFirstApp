@@ -8,6 +8,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.myfirstapp.contact.ContactFragment
 import com.example.myfirstapp.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
 
@@ -51,6 +52,16 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
                     .replace(
                         R.id.containFragment,
                         AboutFragment()
+                    )
+                    .commit()
+            }
+        }
+        when (item.itemId) {
+            R.id.menu_contact -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(
+                        R.id.containFragment,
+                        ContactFragment()
                     )
                     .commit()
             }
