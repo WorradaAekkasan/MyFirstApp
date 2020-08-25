@@ -2,9 +2,11 @@
     <string name="app_name">MyFirstApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Hello_Mook">Hello</string>
+    <string name="Hello_Mook">Worrada Aekkasan</string>
     <string name="about_text">About Me</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="Contact_text">Contact</string>
+    <string name="nickname">Mook</string>
+    <string name="study">Computer Seience</string>
 </resources>

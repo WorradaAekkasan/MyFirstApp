@@ -4,8 +4,10 @@
 
     <item
         android:id="@+id/menu_about"
+        android:icon="@drawable/ic_baseline_favorite_24"
         android:title="@string/about_text" />
     <item
         android:id="@+id/menu_contact"
+        android:icon="@drawable/ic_baseline_https_24"
         android:title="@string/Contact_text" />
 </menu>
