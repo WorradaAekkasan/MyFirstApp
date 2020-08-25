@@ -1,10 +1,9 @@
-package com.example.myfirstapp.contact
+package com.example.myfirstapp.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.myfirstapp.data.ContactData
 
 @Dao
 interface ContactDao {
